@@ -9,7 +9,7 @@ from sklearn.pipeline import Pipeline
 def preprocessing(path: str):
     print("Data Preprocessing...")
     df = pd.read_csv(path, sep = ',')
-    print(df)
+
     # Target col and list of cols to be excluded
     target_col = ['Score']
     exclude_cols = ['Biscuit Name', 'Website for nutritional info per 100g', 'Score']
