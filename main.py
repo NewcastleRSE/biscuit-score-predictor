@@ -1,7 +1,3 @@
-import joblib
-import torch
-import os
-
 from dataset import preprocessing
 from model import LinearRegression
 from predict import predict
@@ -13,8 +9,8 @@ hyperparams = {
     'l1_lambda': 0.01
 }
 
-data_path = 'data.csv'
-predict_data_path = 'data_predict.csv'
+data_path = 'data/data.csv'
+predict_data_path = 'data/data_predict.csv'
 
 if __name__ == '__main__':
     print("\n--------Training--------")
@@ -36,5 +32,4 @@ if __name__ == '__main__':
 
     print("\n--------Results--------")
     for name, score, target in zip(name, result, target):
-        # Using an f-string to get the exact format you want
         print(f"{name}: {score:.2f} (expected: {target:.2f})")

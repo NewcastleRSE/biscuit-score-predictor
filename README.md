@@ -5,7 +5,7 @@ A machine learning tool to predict scores for biscuits based on their nutritiona
 ## Installation
 1.  **Clone the repository:**
     ```bash
-    git clone git@github.com:NewcastleRSE/biscuit_score_predictor.git
+    git clone git@github.com:NewcastleRSE/biscuit-score-predictor.git
     cd biscuit_score_predictor
     ```
 2.  **Install dependencies:**
