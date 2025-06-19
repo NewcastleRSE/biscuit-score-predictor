@@ -1,4 +1,4 @@
-# Biscuit Score Prediction Model
+# 🍪Biscuit Score Prediction Model🍪
 
 A machine learning tool to predict scores for biscuits based on their nutritional information and other features (colour, texture...). 
 
@@ -26,3 +26,5 @@ The script also make the prediction using the information in `data_predict.csv`.
 Fox's Crunch Cream Style : 3.76 (expected: 3.01)
 Biscoff Style: 5.94 (expected: 7.45)
 ```
+
+Have fun playing!
