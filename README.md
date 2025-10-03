@@ -1,6 +1,6 @@
-# 🍪Biscuit Score Prediction Model🍪
+# 🍪SmartBiscuit🍪
 
-A machine learning tool to predict scores for biscuits based on their nutritional information and other features (colour, texture...). 
+SmartBiscuit is a machine learning tool to predict scores for biscuits based on their nutritional information and other features (colour, texture...). 
 
 ## Installation
 1.  **Clone the repository:**
