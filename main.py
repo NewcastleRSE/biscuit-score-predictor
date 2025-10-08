@@ -28,7 +28,7 @@ if __name__ == '__main__':
     # joblib.dump(preprocessor, 'model/biscuit_preprocessor.joblib')
 
     print("\n--------Prediction--------")
-    name, result, target = predict(model, preprocessor, predict_data_path)
+    name, result, target = predict(trained_model, preprocessor, predict_data_path)
 
     print("\n--------Results--------")
     for name, score, target in zip(name, result, target):
